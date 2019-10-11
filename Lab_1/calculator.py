@@ -16,6 +16,9 @@ def divide(m, n):
 
     negResult = m < 0 and n > 0 or \
                 m > 0 and n < 0
+
+    if n == 0:
+        raise ZeroDivisionError("You cannot divide by 0!")
     
     m = abs(m)
     n = abs(n)
