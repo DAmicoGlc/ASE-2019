@@ -1,3 +1,7 @@
 # ignore virtual env folder
 Lab_2/venv
 skeleton/venv
+MillionaireSkeleton/venv
+
+# ignore pycache folder
+Lab_2/__pycache__
